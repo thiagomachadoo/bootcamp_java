@@ -8,7 +8,7 @@ a matrícula do aluno e o segundo
 representando a sua altura em centímetros. (Pare inserindo o valor 0 no campo nome)
  */
 
-public class nomeIdade {
+public class ex2_nomeIdade {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

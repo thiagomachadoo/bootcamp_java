@@ -33,5 +33,24 @@ public class ex16_Pilha {
         }
         return false;
     }
+    @Override
+    public String toString(){
+        String stringRetorno = "-------------------------\n";
+        stringRetorno += "         Pilha\n";
+        stringRetorno += "----------------------------\n";
+
+        no1 noAuxiliar = refNoEntradaPilha;
+
+        while(true){
+            if (noAuxiliar != null){
+                stringRetorno += "[no{dado = " + noAuxiliar.getDado()+ " }]\n";
+                noAuxiliar = noAuxiliar.getRefNo();
+            }else{
+                break;
+            }
+        }
+        stringRetorno += "======================\n";
+        return stringRetorno;
+    }
 
 }

@@ -4,6 +4,7 @@ import logicaDeProgramacao.ex16_Pilha;
 
 public class noMain {
     public static void main(String[] args) {
+        //Exercício ordenado onde nao foi preciso criar uma lista, replicar logica com lista
         ex16_Pilha minhaPilha = new ex16_Pilha();
         
         minhaPilha.push(new no1(1));
